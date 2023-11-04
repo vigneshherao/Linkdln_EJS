@@ -1,0 +1,23 @@
+{
+  "name": "vignesh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vigneshherao/Linkdln_EJS.git"
+  },
+  "author": "vignesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vigneshherao/Linkdln_EJS/issues"
+  },
+  "homepage": "https://github.com/vigneshherao/Linkdln_EJS#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}
