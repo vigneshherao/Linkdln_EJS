@@ -1,3 +1,113 @@
 body{
     background-color: black;
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 52px;
+    background-color: rgb(255, 255, 255);
+}
+.navbar{
+    width: 100%;
+}
+.form-inline{
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    height: 130vh;
+    background-color: rgb(238, 234, 228);
+}
+.main-box{
+    height: 100vh;
+    width: 1300px;
+    background-color: rgb(238, 234, 228);
+    margin: auto;
+    display: flex;
+
+}
+.one{
+    width: 240px;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    margin-right: 30px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.two{
+    width: 800px;
+    height: 100vh;
+    background-color: rgb(238, 234, 228);
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.three{
+    width: 250px;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    margin-left: 30px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.post-top{
+    width: 98%;
+    height: 116px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 1px 1px 10px 1px rgb(225, 225, 225)
+}
+.top-bar{
+    display: flex;
+    margin: auto 30px;
+}
+.imgDiv img{
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.search{
+    height: 48px;
+    width: 100%;
+}
+.search input{
+    height: 48px;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid rgb(139, 139, 139);
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    text-align: left;
+}
+.bottom-options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px;
+}
+.media{
+    width:15%;
+    height: 48px;
+    padding-top: 15px;
+    text-decoration: none;
+    text-align: center;
+}
+.media a{
+    text-decoration: none;
+    color: rgb(169, 169, 169);
+    font-weight: 400;
+
+}
+.media i{
+   color: rgb(255, 111, 0)
+}
+.main-post{
+    height: 100vh;
+    width: 98%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 10px 1px rgb(225, 225, 225);
+    border-radius: 10px;
 }
