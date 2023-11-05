@@ -8,7 +8,7 @@ app.set("view engine","ejs");
 app.use(express.static(path.join(__dirname,"/public/css")));
 
 app.listen(port,()=>{
-    console.log("port is started");
+    console.log(`port is started ${port}`);
 })
 
 app.get("/",(req,res)=>{
